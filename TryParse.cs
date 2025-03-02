@@ -26,6 +26,15 @@ namespace UsingTryParse
                     Console.WriteLine(message);
                 }
             }
+
+            //table 
+            int number;
+            Console.Write("Enter a number for table : "); 
+            number = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("{0} X {1} = {2}",i,number,i*number);
+            }
         }
     }
 }

@@ -20,6 +20,9 @@ namespace HelloWorld
             double negative = -52.362D;
             Console.WriteLine(negative);
             float fll = 5.000006F;
+            string flo = "5.00006";
+            float fl1 = Convert.ToSingle(flo);
+            Console.WriteLine(fl1);
             Console.WriteLine(fll);
             string naee = "Mohamed";
             char initial = 'P';
